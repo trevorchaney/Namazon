@@ -1,25 +1,6 @@
-# Namazon# Final notes
-To run this project you must first install the node dependencies in both the front end and the backend folders with npm install. To run node you must use 
-
-```
-node index.js
-```
-
-in the backend folder and for react you must use
-
-```
-npm start
-```
-
-in the frontend end folder where the respective package.json files are located.
-
-This has been difficult for me but I feel like I have leared a lot in this process.
+Make sure you install express-validator
 
 # Namazon
-
-This fork implements database support and support for sessions and authentication
-
-There is an issue with having the javascript web token return from a login POST request to /user/login, though it does print to console.
 
 ## User:
 ### 1.1) GET /user/:UserId – Gets the user info given the id
